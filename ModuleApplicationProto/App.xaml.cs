@@ -13,5 +13,6 @@ namespace ModuleApplicationProto
     /// </summary>
     public partial class App : Application
     {
+        ILogger logger = new Logger();
     }
 }
